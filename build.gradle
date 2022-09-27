@@ -26,6 +26,11 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.4'
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+    implementation 'javax.servlet:jstl:1.2'
+
 }
 
 tasks.named('test') {

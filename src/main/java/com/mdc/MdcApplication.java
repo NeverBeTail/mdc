@@ -1,4 +1,4 @@
-package com.company.mdc.mdc;
+package com.mdc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
